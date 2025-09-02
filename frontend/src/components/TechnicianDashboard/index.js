@@ -56,7 +56,7 @@ const TechnicianDashboard = () => {
         // console.log(file)
 
         try {
-            const response = await fetch("http://localhost:5000/upload", {
+            const response = await fetch("oral-vis-healthcare-rho.vercel.app/upload", {
                 method: "POST",
                 headers: {
                     Authorization: `Bearer ${jwtToken}`,
