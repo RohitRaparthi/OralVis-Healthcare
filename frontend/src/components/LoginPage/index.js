@@ -48,7 +48,7 @@ const LoginPage = () => {
         event.preventDefault();
 
         const userDetails = { email, password };
-        const url = "https://oral-vis-healthcare-rho.vercel.app/login";
+        const url = "https://oralvis-healthcare-n38g.onrender.com/login";
         const options = {
             method: "POST",
             headers: {
