@@ -37,7 +37,7 @@ const DentistDashboard = () => {
                 }
 
                 const response = await fetch(
-                    "oral-vis-healthcare-rho.vercel.app/scans",
+                    "https://oral-vis-healthcare-rho.vercel.app/scans",
                     {
                         method: "GET",
                         headers: {

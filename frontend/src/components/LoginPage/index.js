@@ -48,7 +48,7 @@ const LoginPage = () => {
         event.preventDefault();
 
         const userDetails = { email, password };
-        const url = "oral-vis-healthcare-rho.vercel.app/login";
+        const url = "https://oral-vis-healthcare-rho.vercel.app/login";
         const options = {
             method: "POST",
             headers: {
