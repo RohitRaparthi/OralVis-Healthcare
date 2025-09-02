@@ -1,0 +1,34 @@
+// Register User API
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "email": "technician@gmail.com",
+    "password": "password123",
+    "role": "Technician"
+}
+
+###
+
+// Login User API
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "dentist@gmail.com",
+    "password": "password123"
+}
+
+###
+
+// Technician Upload Scans
+POST http://localhost:5000/upload
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6IlRlY2huaWNpYW4iLCJpYXQiOjE3NTY4MzM0NjIsImV4cCI6MTc1NjkxOTg2Mn0.v0n2SBYPc4iV0jIvSuN2upBeiKUFde44P-jwB_37XbY
+Content-Type: multipart/form-data
+
+###
+
+// Dentist View Scans
+GET http://localhost:5000/scans
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6IkRlbnRpc3QiLCJpYXQiOjE3NTY4MzMxMzIsImV4cCI6MTc1NjkxOTUzMn0.KboDg5vBenq7RPHJ4Rl4-vr6oyarHwqhhjhz7AgkLjk
+###
